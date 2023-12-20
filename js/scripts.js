@@ -38,7 +38,11 @@ const elementInPage = document.getElementById('user-list');
 
 
 for(let i = 0; i < ourTeam.length; i++){
-   elementInPage.innerHTML += `
+   console.log(ourTeam[i].name,
+    ourTeam[i].role,
+    ourTeam[i].image);
+   
+    elementInPage.innerHTML += `
    <li>
         <h3>
           ${ourTeam[i].name}  

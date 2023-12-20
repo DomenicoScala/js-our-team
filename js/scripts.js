@@ -29,5 +29,14 @@ ourTeam = [
         role : 'Graphic Designer',
         image : 'barbara-ramos-graphic-designer.jpg'
     },
-]
+];
 
+console.log(ourTeam);
+
+
+for(let i = 0; i < ourTeam.length; i++){
+    console.log(i,
+        ourTeam[i].name,
+        ourTeam[i].role,
+        ourTeam[i].image)
+}
